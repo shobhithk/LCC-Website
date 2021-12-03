@@ -5,7 +5,7 @@ import graph from './images/graph.png'
 
 //Router for react
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Blog from "./components/Blog";
+import Blog from "./screens/Blog";
 
 //Bootstrap imports
 //Importing Components
@@ -14,7 +14,7 @@ import Home from "./screens/Home";
 
 const blogData = {
   date: new Date().getFullYear(),
-  author: "S",
+  author: "SKB",
   title: "Lorem Ipsum Lorem Ipsume Lorem Ipsum",
   imageName: graph,
   description:

@@ -3,7 +3,6 @@ import styles from "./Card.module.css";
 import { Button } from "react-bootstrap";
 
 function Card(props) {
-  console.log(props.cardData.graph);
   return (
     <div className={styles.card}>
       <div className={styles["card-header"]}>

@@ -4,8 +4,10 @@ import Card from "../components/UI/Card";
 function Blog(props) {
   return (
     <>
-      <div className="cards">
-        <Card cardData={props.blogData}/>
+      <div className="hero">
+        <div className="cards">
+          <Card cardData={props.blogData} />
+        </div>
       </div>
     </>
   );
